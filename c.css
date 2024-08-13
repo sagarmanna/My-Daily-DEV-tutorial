@@ -1,0 +1,18 @@
+li em{
+    color:brown;
+    background-color: red;
+}
+h1+a{
+    color: bisque;;
+}
+a:hover{
+    color: black;
+
+}
+body h1+p.special{
+    color: blue;
+    background-color:aquamarine ;
+}
+#heading{
+    color: red;
+    }
