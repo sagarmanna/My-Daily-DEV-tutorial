@@ -3,30 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning CSS</title>
+    <title>Learning</title>
+    <style>
+h1{
+    background-color: yellow;
+}
+    </style>
+
+    <!-- External CSS -->
+<link rel="stylesheet" href="c.css">
+
 </head>
 <body>
+
+    <header>
+        
+        <h1 class="special">OUR TITLE</h1>
+        <nav>
+            <ul>
+                <li class ="special"> <a href="s.html" >OPEN</a> </li>
+                <li> <a href="2nd.html">OUR 2nd WEB PAGE</a></li>
+            </ul>
+        </nav>
+    </header>
     
+<!-- property : values-->
 
-<h1 class="special">OUR TITLE</h1>
-<ul>
-    <li class="special">
-        <a href="https://google.com">Home</a> <em>Emphasized</em>
-    </li>
-</ul>
+<!--Inline css : add styling to particular in html doc, 
+Exteernal : add external css  , External , Internal : -->
 
 
-<!-- Create a external CSS-->
- <link rel="stylesheet" href="c.css">
+<!--Selectors : combine selectors , more than 1 elements   -->
+<!--ID selector :
+#idname{
+property name : value;
+}
+-->
+<!-- Attribute selector: if we want to ankor tag : <a href="ww.example .com";
+ a[herf =ww.example .com]{
+ property: value;
+ }
+ scudoclass selectors : use to the style select the element __  visited 
+ *** How to use : selector:psudoselector class {
+ property: value : 
+ }
+ psedo element selector 
+ p:: firstr line {
+ color: brown;
+ }
 
- <h1>Oyr section</h1>
-<p class="special">This is our section</p>
+
+ -->
+ <selection class="special">
+ <article> 
+    <h1>NAME</h1>
+    <h2>SAGAR MANNA</h2>
+ </article>
+ </selection>
+
+ <!--Universal selector 
+    property value :-->
 
 
- <section class="special">
-    <h2>Our Section</h2>
-    <p>This is our Section </p>
- </section>
+
+    <footer>
+        <p> &copy;2023</p>
+        <address>
+            Contact: <a href="sagarmanna954@gmail.com">My Gmail ID </a>
+        </address>
+    </footer>
+
+    <h2>NAME</h2>
+    <p class special="">pursung b.tech in cse </p>
 
 </body>
 </html>

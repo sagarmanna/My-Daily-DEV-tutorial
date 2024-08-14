@@ -1,18 +1,27 @@
-li em{
-    color:brown;
-    background-color: red;
+  h1.special, li.special{
+    color: blue;
+font-weight: bold ;    
 }
-h1+a{
-    color: bisque;;
+li em{
+    color: white;
+    background-color: black;
+}
+h1+p{
+    color: yellowgreen;
 }
 a:hover{
-    color: black;
+color: red;
+}
+heding{
+    color: black; 
+}
+li[class~="a"]{ 
+color: blueviolet;
+} 
 
+/* universal selectors */
+*{
+    list-style: none;
+    /* if using entire doc samen color */
+    color: green;
 }
-body h1+p.special{
-    color: blue;
-    background-color:aquamarine ;
-}
-#heading{
-    color: red;
-    }
