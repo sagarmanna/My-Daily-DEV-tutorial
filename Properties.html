@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+
+    <style>
+        .background{
+            color:#ebecf4;
+          
+            background-image: url("data:image/png;base64,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");
+            width: 1000px;
+            width: 1000px;
+           
+            background-repeat: repeat-y;
+            background-repeat: repeat-x;
+            background-attachment: scroll;
+            background-position:center ;
+           
+        }
+       
+        h1 {
+            font-family: 'Bungee Tint', Times,serif;
+            font-size:200%;
+            font-weight : 300%;
+           text-align: center;
+          
+           text-decoration:none;
+        text-indent: 0;
+          }
+          p{
+            text-indent: 3rem ;
+            letter-spacing: 0.2rem;
+            word-spacing :0.1rem;
+          }
+        
+       
+    </style>
+     
+        
+</head>
+
+
+<body>
+    <!--Using of Properties-->
+<h1>HEADING</h1>
+<p class="background ">Lorem, ipsum dolor sit amet consectet
+    ur adipisicing elit. Quas sequi fu
+    ga quidem architecto! Consequuntur, tempore odit a
+    spernatur iusto optio soluta 
+    neque minus ut sunt ducimus rerum vo
+    luptas dicta commodi quisquam. 
+    luptas dicta commodi quisquam. ecto! Consequuntur,
+     tempore odit a
+    spernatur iusto optio soluta 
+    neque minus ut sunt ducimus rer
+    orem, ipsum dolor sit amet consectet
+    ur adipisicing elit. Quas sequi fu
+    ga quidem architecto! Consequuntur, tempore odit a
+    spernatur iusto optio soluta 
+    neque minus ut sunt ducimus rerum vo
+    luptas dicta commodi quisquam. 
+    luptas dicta commodi quisquam. ecto! Consequuntur,
+     tempore odit a
+    spernatur iusto optio soluta 
+    neque minus ut sunt ducimus rer
+</p>
+</body>
+</html>
